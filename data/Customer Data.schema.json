@@ -1,0 +1,71 @@
+{
+  "id": 103982,
+  "num_rows": 100,
+  "file_format": "csv",
+  "name": "Customer Data",
+  "include_header": true,
+  "columns": [
+    {
+      "name": "company",
+      "null_percentage": 0,
+      "type": "Company Name",
+      "formula": ""
+    },
+    {
+      "name": "first_name",
+      "null_percentage": 0,
+      "type": "First Name",
+      "formula": ""
+    },
+    {
+      "name": "last_name",
+      "null_percentage": 0,
+      "type": "Last Name",
+      "formula": ""
+    },
+    {
+      "name": "email",
+      "null_percentage": 0,
+      "type": "Email Address",
+      "formula": ""
+    },
+    {
+      "name": "gender",
+      "null_percentage": 0,
+      "type": "Gender",
+      "formula": ""
+    },
+    {
+      "name": "phone",
+      "null_percentage": 0,
+      "type": "Phone",
+      "format": "###-###-####",
+      "formula": ""
+    },
+    {
+      "name": "address",
+      "null_percentage": 0,
+      "type": "Street Address",
+      "formula": ""
+    },
+    {
+      "name": "city",
+      "null_percentage": 0,
+      "type": "City",
+      "formula": ""
+    },
+    {
+      "name": "state",
+      "null_percentage": 0,
+      "type": "State",
+      "onlyUSPlaces": true,
+      "formula": ""
+    },
+    {
+      "name": "zip",
+      "null_percentage": 0,
+      "type": "Postal Code",
+      "formula": ""
+    }
+  ]
+}

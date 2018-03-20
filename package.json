@@ -1,0 +1,59 @@
+{
+  "name": "woocommerce-data-generator",
+  "version": "0.0.1",
+  "description": "Generate Data for woocommerce Store",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inf3cti0n95/woocommerce-data-generator.git"
+  },
+  "author": "Viraj Trivedi <inf3cti0n95@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/inf3cti0n95/woocommerce-data-generator/issues"
+  },
+  "homepage": "https://github.com/inf3cti0n95/woocommerce-data-generator#readme",
+  "scripts": {
+    "start": "node entry.js -c 100 -g products",
+    "watch": "nodemon entry.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "commander": "^2.15.0",
+    "dotenv": "^5.0.1",
+    "es6-promise": "^4.2.4",
+    "isomorphic-fetch": "^2.2.1",
+    "rxjs": "^5.5.7",
+    "woocommerce": "^2.4.0",
+    "woocommerce-api": "^1.4.2",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.17.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  },
+  "keywords": [
+    "woocommerce",
+    "DataGenerator",
+    "Data",
+    "Generator",
+    "Ecommerce"
+  ]
+}
